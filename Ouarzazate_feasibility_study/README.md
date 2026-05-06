@@ -1,20 +1,20 @@
-## 📌 Featured Case Study: Ouarzazate Solar Complex (Morocco)
+## 📌 Featured Case Study: Ouarzazate Region Solar PV Project (Morocco)
 
-### ☀️ Large-Scale Solar PV & CSP Hybrid Feasibility Analysis
+### ☀️ Utility-Scale Solar PV Feasibility Analysis
 
-A technical and financial evaluation of one of the world’s largest renewable energy projects located in southern Morocco, at the edge of the Sahara Desert.
+A technical and financial evaluation of a utility-scale solar PV project inspired by the high-irradiation conditions of the Ouarzazate region in southern Morocco.
 
 ---
 
 ### 🎯 Objective
-To analyze the **feasibility, performance, and design logic** behind the Ouarzazate Solar Complex and understand how large-scale solar projects operate under real-world constraints.
+To analyze the **feasibility, performance, and design logic** of a large-scale solar PV system under real-world desert conditions.
 
 ---
 
 ### 🏗️ Project Overview
-- 📍 Location: Ouarzazate, Morocco  
-- 🌍 Type: Utility-scale Solar PV + CSP hybrid system  
-- ⚡ Installed capacity: Multi-phase development (~500 MW+ range)  
+- 📍 Location: Ouarzazate region, Morocco  
+- 🌍 Type: Utility-scale Solar PV system  
+- ⚡ Installed capacity: Project-based (conceptual utility-scale)  
 - 🌞 Environment: High irradiation desert climate  
 
 ---
@@ -27,39 +27,41 @@ To analyze the **feasibility, performance, and design logic** behind the Ouarzaz
 - Impact of dust (soiling losses)
 
 #### ⚙️ System Configuration
-- PV vs CSP contribution comparison  
-- Grid integration strategy  
-- Storage and dispatch considerations
+- PV system sizing and layout logic  
+- Inverter and transformer selection  
+- Grid integration approach  
 
 #### 📊 Performance Evaluation
-- Expected vs real energy yield analysis  
-- Efficiency losses (thermal, optical, electrical)  
-- Capacity factor interpretation
+- Energy yield estimation  
+- Performance ratio (PR) analysis  
+- Loss modeling (temperature, soiling, electrical losses)  
+- Capacity factor interpretation  
 
-#### 💰 Feasibility Perspective
-- High CAPEX vs long-term energy stability  
-- Levelized Cost of Energy (LCOE) insights  
-- Risk factors in mega solar infrastructure
+#### 💰 Financial Analysis
+- CAPEX estimation (modules, inverters, BOS, EPC)  
+- OPEX considerations (maintenance, cleaning)  
+- Levelized Cost of Energy (LCOE) evaluation  
+- Basic financial viability indicators  
 
 ---
 
 ### 🧠 Key Insights
-- Desert regions offer **high irradiation but strong operational constraints**  
-- CSP integration improves dispatchability but increases complexity  
-- Real-world performance is highly dependent on **dust, heat, and maintenance strategy**
+- Desert regions offer **high solar potential but significant performance losses** due to temperature and dust  
+- Accurate loss modeling is critical for realistic energy yield predictions  
+- Financial viability is highly sensitive to **LCOE assumptions and system performance**
 
 ---
 
 ### 📁 Outcome
 This case study is part of a growing portfolio focused on:
-- Real-world solar project evaluation  
-- Feasibility-first engineering thinking  
-- Bridging academic energy physics with industry-scale applications  
+- Real-world solar PV project evaluation  
+- Feasibility-first engineering approach  
+- Bridging academic knowledge with practical system design  
 
 ---
 
 ### 🚀 Status
 ✔ Completed analysis (initial version)  
-🔄 Ongoing improvements with deeper modeling and benchmarking  
+🔄 Ongoing improvements with enhanced modeling and financial depth  
 
 ---
