@@ -60,8 +60,8 @@ This case study is part of a growing portfolio focused on:
 
 ---
 
-### 🚀 Status
-✔ Completed analysis (initial version)  
-🔄 Ongoing improvements with enhanced modeling and financial depth  
+###  Status
+ Completed analysis (initial version)  
+ Ongoing improvements with enhanced modeling and financial depth  
 
 ---
