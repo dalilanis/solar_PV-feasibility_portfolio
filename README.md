@@ -75,10 +75,7 @@ Building a **consulting-style renewable energy portfolio** focused on:
 
 ---
 
-# 📫 Contact
-- LinkedIn: [your link]  
-- GitHub: [your link]  
+ 
 
----
 
 💡 *“Engineering solar systems that work in reality, not just on paper.”*
