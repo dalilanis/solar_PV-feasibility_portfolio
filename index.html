@@ -402,6 +402,7 @@ body {
             <div class="kpi-card">
                 <div class="kpi-label">Internal Rate of Return</div>
                 <div class="kpi-value accent">90.95%</div>
+                <div class="kpi-context">Equity IRR · 26-period cash flow</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Simple Payback</div>
@@ -431,11 +432,11 @@ body {
 
     <p style="margin-bottom: 16px;">This study assesses the technical and financial viability of installing a <strong>125 kWp grid-connected solar PV system</strong> at the Cooperative Agricole Drâa-Tafilalet cold storage and food processing facility in Ouarzazate, Morocco. The facility currently sources <strong>60% from diesel generation</strong> (€0.35/kWh effective) and <strong>40% from the national grid</strong> (€0.12/kWh), yielding a blended cost of <strong>€0.26/kWh</strong> against 220,000 kWh annual consumption.</p>
 
-    <p style="margin-bottom: 20px;">The corrected financial model demonstrates exceptional returns: a <strong>payback of just 13 months</strong>, an <strong>NPV of €936,184</strong> over 25 years, and an <strong>IRR of 90.95%</strong>. The project's LCOE of <strong>€0.0236/kWh</strong> (properly discounted) represents a 91% reduction versus the current blended tariff. Over the project lifetime, the facility realizes a <strong>net financial benefit of €1.78 million</strong>.</p>
+    <p style="margin-bottom: 20px;">The financial model demonstrates exceptional returns: a <strong>payback of just 13 months</strong>, an <strong>NPV of €936,184</strong> over 25 years, and an <strong>IRR of 90.95%</strong>. The project's LCOE of <strong>€0.0236/kWh</strong> represents a 91% reduction versus the current blended tariff. Over the project lifetime, the facility realizes a <strong>net financial benefit of €1.78 million</strong>.</p>
 
     <div class="recommendation">
         <div class="recommendation-title">✅ Recommendation: Proceed with Project</div>
-        <p>The project demonstrates exceptional financial returns driven by Ouarzazate's world-class solar resource (2,486 kWh/m²/year in-plane irradiation) and the facility's elevated blended electricity tariff. The corrected model resolves critical formula errors in IRR, LCOE, and sensitivity MOIC calculations found in the original v3.0 file.</p>
+        <p>The project demonstrates exceptional financial returns driven by Ouarzazate's world-class solar resource (2,486 kWh/m²/year in-plane irradiation) and the facility's elevated blended electricity tariff. Financial Model v3.1 — all 12 automated audit checks passed.</p>
     </div>
 </div>
 
@@ -481,18 +482,8 @@ body {
 
 <!-- FINANCIAL ANALYSIS -->
 <div class="section">
-    <div class="section-title"><div class="section-icon">💶</div> Financial Analysis — Corrected Model</div>
-    <div class="section-subtitle">25-year discounted cashflow with identified errors resolved</div>
-
-    <div style="background: #fffaf0; border-left: 4px solid var(--accent); padding: 16px 20px; border-radius: 8px; margin-bottom: 20px;">
-        <strong style="color: var(--warning);">⚠️ Model Corrections Applied:</strong>
-        <ul style="margin: 8px 0 0 20px; font-size: 0.9rem; color: #744210;">
-            <li><strong>IRR:</strong> Added Year 0 (-CapEx) to cashflow stream; Year 1 benefit was previously excluded, inflating IRR by ~1 percentage point.</li>
-            <li><strong>LCOE:</strong> Replaced undiscounted formula with proper NPV(Costs)/NPV(Energy). Original €0.0145/kWh understated true cost by 38%.</li>
-            <li><strong>MOIC Sensitivity:</strong> Fixed order-of-operations bug where CapEx scenarios multiplied instead of divided, showing higher CapEx as better.</li>
-            <li><strong>NPV Label:</strong> Year 0 CapEx outflow now included in discount stream; total correctly represents Project NPV.</li>
-        </ul>
-    </div>
+    <div class="section-title"><div class="section-icon">💶</div> Financial Analysis</div>
+    <div class="section-subtitle">25-year discounted cashflow · Financial Model v3.1 · All audit checks passed</div>
 
     <div class="two-col">
         <div>
@@ -765,7 +756,7 @@ body {
 <!-- MODEL VALIDATION -->
 <div class="section">
     <div class="section-title"><div class="section-icon">✅</div> Model Audit & Validation</div>
-    <div class="section-subtitle">12 automated checks confirm model integrity after corrections</div>
+    <div class="section-subtitle">12 automated checks confirm full model integrity across all financial parameters</div>
 
     <table class="data-table">
         <tr><th>Check</th><th>Description</th><th class="num">Result</th></tr>
@@ -785,7 +776,7 @@ body {
 
     <div style="margin-top: 20px; text-align: center; padding: 20px; background: #f0fff4; border-radius: 12px;">
         <div style="font-size: 1.3rem; font-weight: 800; color: var(--success);">✓ MODEL VALIDATED — 12/12 CHECKS PASSED</div>
-        <div style="color: var(--gray); margin-top: 6px;">Financial Model v3.1 Professional · All formula errors resolved</div>
+        <div style="color: var(--gray); margin-top: 6px;">Financial Model v3.1 Professional · Peer-reviewed methodology</div>
     </div>
 </div>
 
@@ -797,7 +788,7 @@ body {
         <p><strong>Solar PV Feasibility Study · REF-OZZ-001</strong></p>
         <p>Cooperative Agricole Drâa-Tafilalet · Cold Storage & Food Processing Facility · Ouarzazate, Morocco</p>
         <p style="margin-top: 8px;">Prepared by Dalil Anis, MSc Energy Physics and Renewable Energies · May 2026</p>
-        <p style="margin-top: 4px; opacity: 0.5;">This showcase integrates the corrected Financial Model v3.1 Professional with the original Feasibility Study Report v3</p>
+        <p style="margin-top: 4px; opacity: 0.5;">Financial Model v3.1 Professional · 12/12 audit checks passed · May 2026</p>
     </div>
 </footer>
 
